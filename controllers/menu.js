@@ -1,7 +1,6 @@
 const db = require('./../models')
 // const makeup = require('./../models/makeup')
 
-
 exports.epilation = (req, res) => {
 
     db.epilation.findAll({ raw: true })
@@ -15,6 +14,8 @@ exports.epilation = (req, res) => {
         )
 
 }
+
+
 exports.makeup = (req, res) => {
 
     db.makeup.findAll({ raw: true })
@@ -43,7 +44,7 @@ exports.mgs = (req, res) => {
 }
 exports.visage = (req, res) => {
 
-    db.visage.findAll({ raw: true })
+    db.soinsvisage.findAll({ raw: true })
         .then(data => {
             console.log(data);
             res.send(data);

@@ -14,6 +14,7 @@ module.exports = app => {
     router.get("/mgs", menu.mgs);
     router.get("/mains", menu.mains);
     router.get("/pieds", menu.pieds);
+   
   
     
   

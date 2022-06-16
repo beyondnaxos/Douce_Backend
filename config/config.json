@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "password": "#Julieantho2107",
-    "database": "douce",
+    "database": "douce1",
     "host": "35.189.213.132",
     "dialect": "mysql"
   },
@@ -16,7 +16,7 @@
   "production": {
     "username": "root",
     "password": "#Julieantho2107",
-    "database": "database_production",
+    "database": "douce1",
     "host": "35.189.213.132",
     "dialect": "mysql"
   }

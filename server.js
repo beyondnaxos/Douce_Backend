@@ -11,6 +11,7 @@ app.use((req, res, next) => {
   next()
 })
 
+
 const helmet = require("helmet")
 app.use(helmet.frameguard())
 
@@ -33,12 +34,13 @@ app.listen(PORT, () => {
   console.log(` Le serveur est en écoute sur le port ${PORT}.`);
 });
 
+
 const db = require("./models");
 
 db.sequelize.sync();
 
 //  db.sequelize.sync({ force: true }).then(() => {
-//  console.log("Drop and re-sync db.");
+  //  console.log("Drop and re-sync db.");
 // //  run();
 //  });
 

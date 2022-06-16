@@ -3,7 +3,7 @@
     "username": "root",
     "password": "#Julieantho2107",
     "database": "douce",
-    "host": "127.0.0.1",
+    "host": "35.189.213.132",
     "dialect": "mysql"
   },
   "test": {
@@ -15,9 +15,9 @@
   },
   "production": {
     "username": "root",
-    "password": null,
+    "password": "#Julieantho2107",
     "database": "database_production",
-    "host": "127.0.0.1",
+    "host": "35.189.213.132",
     "dialect": "mysql"
   }
 }

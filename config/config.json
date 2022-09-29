@@ -15,7 +15,7 @@
   },
   "production": {
     "username": "root",
-    "password": "#Julieantho2107",
+    "password": null,
     "database": "database_production",
     "host": "35.189.213.132",
     "dialect": "mysql"
